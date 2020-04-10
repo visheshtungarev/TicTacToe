@@ -1,3 +1,17 @@
 .square:focus {
     outline: none;
   }
+  .square {
+    background: #999;
+    border: 3px solid #000;
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+  }
