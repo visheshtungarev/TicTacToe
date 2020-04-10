@@ -1,0 +1,38 @@
+body {
+  background: #070707;
+}
+.App {
+  background-color: #070707;
+  /* text-align: center; */
+}
+.App {
+  background: linear-gradient(to bottom, #333333 0%, #070707 100%);
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.logo {
+  width: 450px;
+  margin-top: 80px;
+}
+
+header {
+  padding: 35px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  header .col-sm-12 {
+    padding-bottom: 15px;
+  }
+  header {
+    padding: 15px;
+  }
+}
